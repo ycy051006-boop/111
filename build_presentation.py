@@ -20,31 +20,32 @@ ROLE_FILES = [
     ASSETS / 'ip_mo.png',
     ASSETS / 'ip_chou.png',
 ]
-MOTIFS = ASSETS / '01_role_motifs.png'
+MOTIFS = ASSETS / '11_floral_costume_motifs.png'
 CITY = ASSETS / '02_quanzhou_cityscape.png'
-PAPER = ASSETS / '03_full_bookmarks.png'
-STAMPS = ASSETS / '08_full_stamps.png'
-ACCESSORIES = ASSETS / '04_full_keychains.png'
-SACHETS = ASSETS / '09_costume_sachets.png'
-MIRRORS = ASSETS / '10_costume_mirrors.png'
-FIGURINES = ASSETS / '05_figurines.png'
-BAGS = ASSETS / '06_full_tote_bags.png'
-EXHIBIT = ASSETS / '07_exhibition_mockup.png'
+PAPER = ASSETS / '12_floral_bookmarks.png'
+STAMPS = ASSETS / '14_floral_stamps.png'
+ACCESSORIES = ASSETS / '16_floral_keychains.png'
+SACHETS = ASSETS / '13_floral_sachets.png'
+MIRRORS = ASSETS / '18_floral_mirrors.png'
+FIGURINES = ASSETS / '15_floral_figurines.png'
+BAGS = ASSETS / '17_floral_totes.png'
+EXHIBIT = ASSETS / '19_floral_exhibition_mockup.png'
 prs = Presentation()
 prs.slide_width, prs.slide_height = Inches(13.333), Inches(7.5)
 W, H = 13.333, 7.5
 
-BG = '#08090D'
-PINK = '#FF4B9E'
-TEAL = '#4CE3D0'
-YELLOW = '#FFE46A'
-PURPLE = '#A064FF'
-BLUE = '#58A9FF'
-ORANGE = '#FF954C'
-WHITE = '#F8F6F6'
-MUTED = '#A7A6AF'
-CARD = '#14151E'
-STROKE = '#393844'
+BG = '#0D1019'
+PINK = '#E85B85'
+TEAL = '#52D1C3'
+YELLOW = '#F2CF76'
+PURPLE = '#AC90E9'
+BLUE = '#76B3EA'
+ORANGE = '#F2A46E'
+WHITE = '#F5F0E7'
+MUTED = '#B5ADAA'
+CARD = '#181C29'
+STROKE = '#494657'
+GOLD = '#D8AA68'
 ROLE_NAMES = ['生', '旦', '净', '末', '丑']
 ROLE_COLOR = [TEAL, PINK, ORANGE, BLUE, YELLOW]
 ROLE_EN = ['SHENG', 'DAN', 'JING', 'MO', 'CHOU']
@@ -141,25 +142,15 @@ def photo_crop(s,path,x,y,w,h,left=0,top=0,right=0,bottom=0):
 
 
 def motif(s,idx,x,y,w,h):
-    """Editable symbols redrawn from marks on the five characters' garments."""
-    d=min(w,h)*.66; cx=x+w/2; cy=y+h/2
-    fills=[TEAL,PINK,PURPLE,BLUE,'#51B85C']
-    circle(s,cx-d/2,cy-d/2,d,fills[idx],YELLOW,2)
-    if idx in (0,2,3):
-        # Scrolled clouds on Sheng's robe, Jing's apron and Mo's hem.
-        cc=[YELLOW,ORANGE,TEAL][[0,2,3].index(idx)]
-        for dx,dy,r in [(-.21,.01,.30),(0,-.10,.39),(.22,.01,.30)]:
-            circle(s,cx+d*dx-d*r/2,cy+d*dy-d*r/2,d*r,cc)
-        for dx,dy,r in [(-.20,.035,.17),(0,-.065,.22),(.22,.035,.17)]:
-            circle(s,cx+d*dx-d*r/2,cy+d*dy-d*r/2,d*r,fills[idx])
-        rule(s,cx-d*.29,cy+d*.17,d*.58,cc,d*.045)
-    else:
-        import math
-        petal=YELLOW if idx==4 else '#FFE2EA'
-        for j in range(5):
-            a=2*math.pi*j/5-math.pi/2
-            circle(s,cx+math.cos(a)*d*.21-d*.15,cy+math.sin(a)*d*.21-d*.15,d*.30,petal)
-        circle(s,cx-d*.11,cy-d*.11,d*.22,ORANGE if idx==4 else PINK)
+    """Place one flower-and-costume emblem from the transparent system sheet."""
+    d=min(w,h); px=x+(w-d)/2; py=y+(h-d)/2
+    regions=[(0,120,430,570),(430,120,873,570),(873,120,1305,570),
+             (1305,120,1740,570),(1740,120,2172,570)]
+    x0,y0,x1,y1=regions[idx]
+    pic=s.shapes.add_picture(str(MOTIFS),I(px),I(py),I(d),I(d))
+    pic.crop_left=x0/2172; pic.crop_right=(2172-x1)/2172
+    pic.crop_top=y0/724; pic.crop_bottom=(724-y1)/724
+    return pic
 
 
 def costume_detail(s,idx,region,x,y,w,h):
@@ -174,23 +165,23 @@ def costume_detail(s,idx,region,x,y,w,h):
 
 def base(title,num,tag=None):
     s=slide()
-    rule(s,.42,.30,12.49,'#49444F',.012)
-    txt(s,title,.43,.42,10.7,.46,22,WHITE,True)
-    rule(s,.43,1.03,.32,PINK,.055); rule(s,.79,1.03,.2,TEAL,.055)
-    if tag: txt(s,tag,9.4,.45,3.4,.3,9,MUTED,align='right')
-    txt(s,f'{len(prs.slides):02d} / {TOTAL}',11.82,7.07,1.05,.22,9,MUTED,align='right')
+    rule(s,.52,.25,12.29,GOLD,.018)
+    txt(s,title,.56,.42,10.45,.50,26,WHITE,True)
+    rule(s,.57,1.06,.58,PINK,.052); rule(s,1.18,1.06,.27,TEAL,.052)
+    if tag: txt(s,tag,9.14,.48,3.48,.27,10,GOLD,align='right')
+    txt(s,f'{len(prs.slides):02d} / {TOTAL}',11.84,7.07,1.0,.23,9,MUTED,align='right')
     return s
 
 
 def divider(n,title,subtitle,idx,color):
-    s=slide(); rule(s,.42,.32,12.5,'#46414B',.012)
-    txt(s,f'{n:02d}',.43,.62,2.4,1.4,66,color,True)
-    txt(s,title,2.05,1.49,8.9,1.6,37,WHITE,True,spacing=1.14)
-    txt(s,subtitle,2.1,3.23,7.2,.45,12,MUTED)
-    role(s,idx,.47,3.47,2.56,3.65)
-    medallion(s,10.84,1.23,1.25,(color,TEAL,YELLOW))
-    medallion(s,11.64,5.66,.95,(PINK,PURPLE,YELLOW))
-    medallion(s,8.36,6.64,1.2,(TEAL,ORANGE,YELLOW))
+    s=slide(); rule(s,.58,.44,12.18,GOLD,.018)
+    txt(s,'CHAPTER  /  掌上乾坤',.66,.67,5.7,.34,12,GOLD,True)
+    txt(s,f'{n:02d}',.57,1.40,2.3,1.4,83,color,True)
+    txt(s,title,.72,3.16,7.6,1.57,40,WHITE,True,spacing=1.15)
+    rule(s,.73,5.20,4.40,color,.055)
+    txt(s,subtitle,.75,5.48,7.6,.43,13,MUTED)
+    motif(s,idx,9.25,.98,2.74,2.74)
+    role(s,idx,8.14,3.03,4.55,4.22)
     return s
 
 
@@ -202,31 +193,49 @@ def card(s,x,y,w,h,title,body,color=PINK,icon=None):
     txt(s,body,x+.2,y+1.06,w-.4,h-1.20,14,WHITE,valign='top',spacing=1.20)
 
 
+def product_spread(title,tag,image_path,index,summary,color):
+    """Editorial product layout with a stable image scale and motif anchor."""
+    s=base(title,0,tag)
+    box(s,.59,1.45,3.14,5.35,CARD,STROKE,True)
+    txt(s,f'{index+1:02d}',.84,1.73,2.0,.83,48,color,True)
+    motif(s,index%5,.85,2.74,2.55,2.55)
+    rule(s,.87,5.39,2.49,color,.047)
+    txt(s,summary,.88,5.63,2.47,.84,16,WHITE,True,valign='top',spacing=1.16)
+    box(s,4.00,1.45,8.72,5.35,'#101218',STROKE,True)
+    photo(s,image_path,4.13,1.59,8.46,4.78)
+    txt(s,'设计概念效果图  /  五角成戏系列',4.23,6.47,8.22,.26,11,MUTED,align='right')
+    return s
+
+
 # 01 Cover
 s=slide()
-medallion(s,.72,.36,1.1,(PINK,TEAL,YELLOW))
-medallion(s,12.25,.51,.92,(PURPLE,ORANGE,YELLOW))
-medallion(s,11.55,6.42,1.28,(TEAL,PINK,YELLOW))
-txt(s,'掌上乾坤',2.3,.47,8.7,.83,44,YELLOW,True,align='center')
-txt(s,'泉州布袋戏',2.13,1.28,9.1,.85,46,PINK,True,align='center')
-txt(s,'QUANZHOU GLOVE PUPPET THEATRE · CULTURAL CREATIVE DESIGN',2.1,2.13,9.2,.3,12,WHITE,align='center')
-rule(s,5.42,2.52,2.5,TEAL,.04)
-for i in range(5): role(s,i,.24+i*2.61,2.98,2.55,3.82)
-txt(s,'生',.34,6.73,2.15,.45,23,TEAL,True,align='center')
-for i,c in enumerate([PINK,ORANGE,BLUE,YELLOW],1): txt(s,ROLE_NAMES[i],.34+i*2.61,6.73,2.15,.45,23,c,True,align='center')
+rule(s,.65,.49,12.08,GOLD,.021)
+txt(s,'泉州 · 掌中戏文化创意设计',.71,.77,7.3,.36,14,GOLD,True)
+txt(s,'掌上乾坤',.67,1.50,7.78,.91,52,YELLOW,True)
+txt(s,'泉州布袋戏',.67,2.50,7.92,.89,48,WHITE,True)
+rule(s,.71,3.66,5.62,PINK,.060)
+txt(s,'五角成戏  ×  花与衣纹',.72,3.94,6.84,.51,23,PINK,True)
+txt(s,'QUANZHOU GLOVE PUPPET THEATRE',.73,4.55,6.8,.32,13,MUTED)
+motif(s,2,9.51,.65,3.22,3.22)
+role(s,2,8.37,2.10,4.71,4.83)
+for i in range(5):
+    role(s,i,.72+i*1.27,5.22,1.21,1.46)
+    txt(s,ROLE_NAMES[i],.83+i*1.27,6.70,.98,.27,14,ROLE_COLOR[i],True,align='center')
+txt(s,'CULTURAL CREATIVE DESIGN  /  2026',.73,7.09,6.7,.22,9,MUTED)
 
 # 02 Contents
-s=slide(); txt(s,'目录',.5,.47,2.1,.6,31,PINK,True)
-txt(s,'CONTENTS',2.18,.56,3.0,.32,19,'#393942',True)
-rule(s,.5,1.12,12.2,'#3E3B46',.015)
+s=slide(); txt(s,'目录',.60,.52,2.1,.62,33,WHITE,True)
+txt(s,'CONTENTS',2.39,.66,3.0,.32,16,GOLD,True)
+rule(s,.60,1.25,12.05,GOLD,.022)
 sections=[('01','创意溯源','与文化背景',PINK),('02','核心视觉设计','与规范',TEAL),('03','文创衍生品','开发应用',PURPLE),('04','展板设计','与成果展示',BLUE)]
 for i,(n,a,b,c) in enumerate(sections):
-    x=.58+i*3.12
-    txt(s,n,x,2.32,2.8,.9,42,c,True)
-    txt(s,a+'\n'+b,x,3.5,2.7,1.2,22,WHITE,True,spacing=1.2)
-    rule(s,x,5.18,2.48,c,.025)
-for i in range(5): role(s,i,.55+i*.92,5.55,.94,1.45)
-medallion(s,11.82,5.53,.8,(PINK,TEAL,YELLOW))
+    x=.62+i*3.12
+    box(s,x,1.63,2.85,4.64,CARD,STROKE,True)
+    txt(s,n,x+.18,1.90,2.5,.95,49,c,True)
+    txt(s,a+'\n'+b,x+.18,3.18,2.46,1.28,21,WHITE,True,spacing=1.22)
+    rule(s,x+.18,4.79,2.31,c,.035)
+    motif(s,i if i<3 else 4,x+.82,5.05,1.15,1.15)
+txt(s,'从文化依据走向完整的角色、图形、文创与展陈系统',.69,6.69,11.72,.37,16,MUTED,align='center')
 
 # 03 Divider
 divider(1,'创意溯源\n与文化背景','FROM FOLK STAGE TO CONTEMPORARY DESIGN',1,PINK)
@@ -274,6 +283,8 @@ s=base('选题介绍',5,'01 / 项目背景')
 card(s,.53,1.55,3.9,4.46,'项目背景','城市文化与文旅体验不断融合，传统戏曲需要更鲜明、轻盈的视觉入口，让初次接触的观众愿意驻足与了解。',PINK,'01')
 card(s,4.71,1.55,3.9,4.46,'设计说明','提取木偶的冠帽、脸谱、衣饰和表演姿态，转化为五位可辨认的国潮角色，并延展到日常文创载体。',TEAL,'02')
 card(s,8.89,1.55,3.9,4.46,'设计理念','以“五角成戏”为核心，让收藏、使用和分享成为走近掌中戏文化的连续体验。',YELLOW,'03')
+for j,idx in enumerate([1,2,4]):
+    motif(s,idx,1.71+j*4.18,4.65,1.49,1.21)
 txt(s,'文化识别 → 角色共鸣 → 场景使用 → 自发传播',2.24,6.38,8.87,.45,17,WHITE,True,align='center')
 
 # 06 Audience
@@ -281,12 +292,14 @@ s=base('受众人群与使用场景',6,'01 / 目标人群')
 card(s,.53,1.58,3.9,4.64,'泉州游客','希望带走轻便、具有地方辨识度的纪念品。\n\n场景：景区、博物馆、古城街巷。',PINK)
 card(s,4.71,1.58,3.9,4.64,'青年与亲子','偏好角色故事、成套收藏和互动体验。\n\n场景：研学课堂、社交分享、礼赠。',TEAL)
 card(s,8.89,1.58,3.9,4.64,'文旅机构','需要能够代表在地文化、方便陈列与传播的系列礼品。\n\n场景：展演活动、城市礼物、公共教育。',PURPLE)
+for j,idx in enumerate([0,4,3]):
+    role(s,idx,1.53+j*4.18,4.55,1.81,1.50)
 txt(s,'接触戏偶 → 认识行当 → 收集角色 → 分享泉州故事',1.73,6.55,9.9,.38,16,WHITE,True,align='center')
 
 # 07 Reference style
-s=base('参考风格',7,'01 / 风格定位')
-txt(s,'统一新中式国潮风格',.57,1.48,7.1,.65,31,WHITE,True)
-txt(s,'高饱和撞色 · 扁平插画 · 戏台层次 · 纹样点缀',.58,2.18,9.7,.39,17,TEAL,True)
+s=base('版式与视觉策略',7,'01 / 风格定位')
+txt(s,'从戏台到展场：清晰的叙事秩序',.57,1.48,10.8,.65,31,WHITE,True)
+txt(s,'一页一重点 · 大标题 · 五色分角 · 金线花纹',.58,2.18,10.7,.39,17,TEAL,True)
 box(s,.53,2.91,12.28,3.64,CARD,STROKE,True)
 for i in range(5):
     x=.79+i*2.42
@@ -339,23 +352,23 @@ for i,(c,n) in enumerate(colors):
 txt(s,'从戏服与脸谱提取高饱和色彩，以黑色戏幕衬托角色；色彩随角色切换，系统保持统一。',.63,6.61,11.77,.44,15,MUTED)
 
 # 12 Motifs
-s=base('辅助图形设计',12,'02 / 纹样系统')
-txt(s,'五角五纹 · 只从五位人物的衣服图案提取',.61,1.35,11.68,.5,19,PINK,True)
-for i,(a,b) in enumerate([('青衣云纹','生'),('粉袖花纹','旦'),('紫袍云纹','净'),('蓝袍云浪','末'),('绿衣团花','丑')]):
+s=base('花与衣纹辅助图形',12,'02 / 纹样系统')
+txt(s,'五角五纹 · 衣纹骨架 × 花卉意象',.61,1.35,11.68,.5,20,PINK,True)
+for i,(a,b) in enumerate([('青云梅花','生'),('牡丹衣纹','旦'),('赤焰花云','净'),('海潮白梅','末'),('绿衣团花','丑')]):
     x=.43+i*2.56
     motif(s,i,x,2.09,2.43,3.61)
     txt(s,a,x+.04,5.70,2.34,.47,17,ROLE_COLOR[i],True,align='center')
     txt(s,b,x+.34,6.17,1.74,.35,13,WHITE,align='center')
-txt(s,'纹样可独立用于印章、挂件、香囊与包装，也可与人物形象组合。',.75,6.72,11.85,.35,14,MUTED,align='center')
+txt(s,'统一金线与花瓣节奏，让五种角色服饰图形形成同一品牌家族。',.75,6.72,11.85,.35,14,MUTED,align='center')
 
 # Evidence of the actual costume-to-graphic extraction.
-s=base('衣纹提取过程',14,'02 / 图形推导')
-txt(s,'从衣服局部到可复用的辅助图形',.63,1.29,9.3,.55,26,PINK,True)
+s=base('花与衣纹的生成过程',14,'02 / 图形推导')
+txt(s,'衣服局部 → 纹样骨架 → 花卉延展',.63,1.29,9.3,.55,26,PINK,True)
 txt(s,'原服饰局部',.86,1.98,2.15,.37,15,WHITE,True,align='center')
 txt(s,'提炼动作',4.50,1.98,2.0,.37,15,WHITE,True,align='center')
 txt(s,'辅助图形',8.97,1.98,2.2,.37,15,WHITE,True,align='center')
 regions=[(400,895,790,1105),(395,725,605,900),(525,855,795,1085),(270,1000,560,1185),(305,655,475,830)]
-steps=['保留金色三瓣云头','提炼五瓣花心与瓣形','简化裙甲上的团云','抽取下摆云浪曲线','保留绿衣上的五瓣花']
+steps=['三瓣云头 + 梅花','粉袖花心 + 金蔓','裙甲团云 + 焰花','蓝袍云浪 + 白梅','绿衣五瓣花放大']
 for i in range(5):
     yy=2.43+i*.79
     box(s,.66,yy,12.0,.73,CARD,STROKE,True)
@@ -366,8 +379,8 @@ for i in range(5):
     txt(s,steps[i],4.04,yy+.13,3.47,.42,17,WHITE,align='center')
     txt(s,'→',7.56,yy+.13,.5,.39,20,TEAL,True,align='center')
     motif(s,i,8.14,yy+.02,1.02,.69)
-    txt(s,['青衣云纹','粉袖花纹','紫袍云纹','蓝袍云浪','绿衣团花'][i],9.46,yy+.15,2.78,.37,16,ROLE_COLOR[i],True)
-txt(s,'取形、简线、统一边框；不使用扇面竹叶、头饰或手持道具作为衣纹来源。',.73,6.64,11.93,.34,13,MUTED,align='center')
+    txt(s,['青云梅花','牡丹衣纹','赤焰花云','海潮白梅','绿衣团花'][i],9.46,yy+.15,2.78,.37,16,ROLE_COLOR[i],True)
+txt(s,'衣服提供结构与主色；花卉提供统一的生长感与礼赠气质。',.73,6.64,11.93,.34,14,MUTED,align='center')
 
 # 13 Auxiliary elements
 s=base('辅助元素展示',13,'02 / 版式语言')
@@ -396,39 +409,25 @@ for i,(a,b,c,d) in enumerate(items):
     txt(s,c,x+.24,y+1.51,5.32,.38,14,MUTED)
 
 # 16 Bookmarks and postcards
-s=base('设计延展 —— 角色书签',16,'03 / 纸品系列')
-photo(s,PAPER,.66,1.47,12.0,5.16)
-txt(s,'一角一签：完整人物与衣饰纹样组合成系列纸品，可独立收藏，也可成套陈列。',.79,6.63,11.75,.35,15,WHITE,align='center')
+product_spread('角色书签','03 / 纸品系列',PAPER,0,'完整人物与花云边饰\n组合成可收藏纸品',PINK)
 
 # 17 Sachet
-s=base('设计延展 —— 香囊设计',17,'03 / 随身系列')
-photo_crop(s,SACHETS,.66,1.60,12.0,4.85,top=.12,bottom=.16)
-txt(s,'香囊展示五角色系列配色；量产图形以衣纹提取页的五款辅助图形为准。',1.0,6.51,11.33,.40,16,WHITE,align='center')
+product_spread('衣纹香囊','03 / 随身系列',SACHETS,1,'花与衣纹并置\n形成五款随身香囊',TEAL)
 
 # 18 Stamps
-s=base('设计延展 —— 邮票设计',18,'03 / 纸品系列')
-photo(s,STAMPS,.65,1.47,12.05,5.13)
-txt(s,'五枚邮票均保留人物从冠帽到鞋履的完整形象，并以衣饰纹样作边框。',.95,6.63,11.36,.35,15,WHITE,align='center')
+product_spread('五角纪念邮票','03 / 纸品系列',STAMPS,2,'五角成组\n延展成轻量纪念品',ORANGE)
 
 # 19 Display figurines
-s=base('设计延展 —— 桌面角色摆件',19,'03 / 收藏系列')
-photo(s,FIGURINES,.53,1.40,12.24,5.57)
-txt(s,'五角成套收藏，底座延续各角色的专属辅助纹样。',1.43,6.76,10.57,.35,14,MUTED,align='center')
+product_spread('桌面角色摆件','03 / 收藏系列',FIGURINES,3,'完整人物成套\n建立桌面收藏场景',BLUE)
 
 # 20 Keychains
-s=base('设计延展 —— 角色钥匙扣',20,'03 / 随身系列')
-photo(s,ACCESSORIES,.67,1.47,12.0,5.16)
-txt(s,'完整人物挂件配套衣饰纹样小牌与流苏，适合单件购买或成套礼赠。',.82,6.62,11.8,.35,15,WHITE,align='center')
+product_spread('角色钥匙扣','03 / 随身系列',ACCESSORIES,4,'完整人物挂件\n配同色花云徽章',YELLOW)
 
 # 21 Tote bags
-s=base('设计延展 —— 帆布袋',21,'03 / 随身系列')
-photo(s,BAGS,.67,1.43,12.0,5.14)
-txt(s,'五款帆布袋完整呈现人物，从帽饰、衣袖到鞋履均保留在图案内。',1.16,6.61,11.0,.34,15,WHITE,align='center')
+product_spread('五角帆布袋','03 / 随身系列',BAGS,5,'全身角色置于中央\n花云图形构成边框',TEAL)
 
 # 22 Collection
-s=base('设计延展 —— 随身镜与系列礼盒',22,'03 / 礼赠系列')
-photo_crop(s,MIRRORS,.64,1.72,12.0,4.46,top=.14,bottom=.20)
-txt(s,'随身镜外壳使用五款衣饰辅助纹样；可与书签、挂件组合为「五角成戏」礼盒。',.80,6.38,11.76,.51,16,WHITE,align='center')
+product_spread('衣纹随身镜','03 / 礼赠系列',MIRRORS,6,'独立纹样做镜面\n与纸品组合成礼盒',PINK)
 
 # Specifications for two products that can be quoted and prototyped.
 s=base('重点文创打样规范',24,'03 / 工艺方案')
@@ -496,7 +495,7 @@ for i in range(5):
     role(s,i,x+.04,2.29,2.35,2.77)
     motif(s,i,x+.65,5.00,1.13,1.11)
     txt(s,ROLE_NAMES[i],x+.54,6.20,1.37,.32,17,ROLE_COLOR[i],True,align='center')
-txt(s,'五位人物均以完整形象展示；下方图形只从各自的衣服纹样提炼。',.62,6.94,12.06,.32,13,MUTED,align='center')
+txt(s,'五位人物均以完整形象展示；下方图形由各自衣纹与花卉意象组合。',.62,6.94,12.06,.32,13,MUTED,align='center')
 
 # 27 Product wall
 s=slide(); rule(s,.55,.42,12.24,PURPLE,.045)
@@ -540,20 +539,16 @@ for i,(p,a,c) in enumerate([(PAPER,'纸品',PINK),(SACHETS,'衣纹香囊',TEAL),
 
 # 30 Back cover
 s=slide()
-medallion(s,.9,.69,1.18,(PINK,TEAL,YELLOW))
-medallion(s,11.85,.64,.98,(PURPLE,PINK,YELLOW))
-txt(s,'掌上乾坤',2.2,1.13,8.9,.92,48,YELLOW,True,align='center')
-txt(s,'泉州布袋戏',2.23,2.19,8.85,.88,46,PINK,True,align='center')
-txt(s,'让一出掌中戏，走进更多人的生活',2.47,3.24,8.4,.52,20,WHITE,align='center')
-rule(s,5.14,4.0,3.05,TEAL,.055)
-for i in range(5): role(s,i,2.06+i*1.89,4.58,1.84,2.43)
-txt(s,'QUANZHOU GLOVE PUPPET THEATRE · CULTURAL CREATIVE DESIGN',2.17,7.08,9.0,.24,10,MUTED,align='center')
-
-# Product renderings predate the vector garment marks; make their status clear.
-for sl in prs.slides:
-    title=' '.join(sh.text for sh in sl.shapes if getattr(sh,'has_text_frame',False) and sh.text)
-    if '设计延展 ——' in title:
-        txt(sl,'概念效果图 · 实物图案以衣纹提取规范为准',.50,7.08,6.75,.23,9,MUTED)
+rule(s,.63,.48,12.08,GOLD,.021)
+txt(s,'掌上乾坤  /  泉州布袋戏',.70,.74,7.50,.37,16,GOLD,True)
+txt(s,'戏在掌中，也在日常。',.66,1.53,11.60,.88,45,WHITE,True)
+txt(s,'让一出掌中戏，走进更多人的生活',.70,2.52,9.63,.52,22,PINK,True)
+rule(s,.70,3.20,11.90,TEAL,.052)
+for i in range(5):
+    x=.55+i*2.57
+    role(s,i,x,3.59,2.42,2.83)
+    txt(s,ROLE_NAMES[i],x+.77,6.45,.91,.33,18,ROLE_COLOR[i],True,align='center')
+txt(s,'QUANZHOU GLOVE PUPPET THEATRE  ·  CULTURAL CREATIVE DESIGN',.69,7.10,10.84,.24,10,MUTED)
 
 assert len(prs.slides)==TOTAL, (len(prs.slides), TOTAL)
 prs.save(OUT)

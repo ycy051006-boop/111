@@ -11,9 +11,9 @@ OUTPUT = ROOT / "quanzhou_exhibition_boards.pdf"
 BOARD_DIR = ROOT / "boards"
 
 LABELS = [
-    ("掌上乾坤  /  泉州布袋戏", "01_culture_board.png"),
-    ("掌上乾坤  /  五角成戏", "02_character_board.png"),
-    ("掌上乾坤  /  文创应用", "03_products_board.png"),
+    ("掌中有戏，指尖传情", "01_culture_board.png"),
+    ("一眼识五角", "02_character_board.png"),
+    ("从舞台到日常", "03_products_board.png"),
 ]
 
 
