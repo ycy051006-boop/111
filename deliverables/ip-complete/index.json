@@ -1,0 +1,135 @@
+[
+  {
+    "filename": "01-figurines.png",
+    "name": "五角色公仔",
+    "width": 1774,
+    "height": 887,
+    "sha256": "85622c13bd2b28c318f627ae76ce5d4b5dc47743ca32a8a5107ebd2c7154dc6f"
+  },
+  {
+    "filename": "02-keychains.png",
+    "name": "亚克力钥匙扣",
+    "width": 1774,
+    "height": 887,
+    "sha256": "66cd202bc04ff4a5956316f463e8e6e07712323718d0a66ca11408a1f5d24e91"
+  },
+  {
+    "filename": "03-magnets.png",
+    "name": "角色冰箱贴",
+    "width": 1774,
+    "height": 887,
+    "sha256": "ba889969cb25a6b118325b29b589c6936009c6e3e73cd28c60040c2d7c23b266"
+  },
+  {
+    "filename": "04-bookmarks.png",
+    "name": "角色书签",
+    "width": 1774,
+    "height": 887,
+    "sha256": "ba3a6ff5f83c9d41b6b368efa83db89d0da922640d76f308b9d5f27b8a541ef6"
+  },
+  {
+    "filename": "05-badges.png",
+    "name": "徽章礼盒",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "9b7dc883984b28a0223ccf0983b995bece1a4573796d8c148fa37f0a5f7eb9db"
+  },
+  {
+    "filename": "06-sachets.png",
+    "name": "衣纹香囊",
+    "width": 1774,
+    "height": 887,
+    "sha256": "fd26c21ab1f4310f770755db40959ad210b02cac5c4c97adc1df535d1ab11b1b"
+  },
+  {
+    "filename": "07-tote-bags.png",
+    "name": "帆布袋",
+    "width": 1774,
+    "height": 887,
+    "sha256": "0f73c48bf14badf70dbe191f18d9f77fa09dae45e5456b0012dd254f7bfacafd"
+  },
+  {
+    "filename": "08-pillows.png",
+    "name": "异形抱枕",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "8b532ed6ec798bdd7b63bacf5850b0b28642377fb3481eb68c483ee167150990"
+  },
+  {
+    "filename": "09-phone-cases.png",
+    "name": "手机壳",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "22173dd2b76e99c2ea9d278166d67d32f4b96514bec820333357dbc10c9f9d99"
+  },
+  {
+    "filename": "10-cups.png",
+    "name": "随行杯与马克杯",
+    "width": 1983,
+    "height": 793,
+    "sha256": "f4b8e2accaaeef511670608e4b7eb153e3595408a1a70213af462ae12f5428bd"
+  },
+  {
+    "filename": "11-stickers.png",
+    "name": "角色贴纸",
+    "width": 1774,
+    "height": 887,
+    "sha256": "8486a3f26918982641d8d3b0cf3c912ca95f60abdcb9a47ef5266c6cfb564683"
+  },
+  {
+    "filename": "12-tapes.png",
+    "name": "和纸胶带",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "7710cea1a20e0b6955ff758d37e11567494af9866c76a4b45e74b91f006a762c"
+  },
+  {
+    "filename": "13-blind-boxes.png",
+    "name": "盲盒包装",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "9c41b1c8f4c12634055e53911b8da6bc944bb31e36631e8dc5a5b1be04eabebe"
+  },
+  {
+    "filename": "14-wall-red-stage.png",
+    "name": "红金戏台打卡墙",
+    "width": 1774,
+    "height": 887,
+    "sha256": "812784d1c33bf7aedae73694069242614b6911bbc7e8da41c6336e5d7a9befb9"
+  },
+  {
+    "filename": "15-wall-folding-fan.png",
+    "name": "粉青折扇打卡墙",
+    "width": 1774,
+    "height": 887,
+    "sha256": "d11aad2a84b76758d5f875ce5ca81d2af86a9dc65d676d20ab1b848e35459d59"
+  },
+  {
+    "filename": "16-wall-courtyard.png",
+    "name": "古城庭院打卡墙",
+    "width": 1774,
+    "height": 887,
+    "sha256": "20fb1ab563594daf4ad8d7e4ef88bfdaa9fa680267c3020fbba2f22c4d27ef5d"
+  },
+  {
+    "filename": "17-wall-blindbox.png",
+    "name": "巨型盲盒打卡装置",
+    "width": 1536,
+    "height": 1024,
+    "sha256": "aa51cf0910d674624468a87b60264f6b8976430b5ebdcd87f19e309563cd32c5"
+  },
+  {
+    "filename": "18-wall-waves.png",
+    "name": "海丝波浪打卡装置",
+    "width": 1891,
+    "height": 831,
+    "sha256": "83ca3a684088b9c03d3f9f6adbd7072c1fad1ada4dcacc4393ed56f3ee06c016"
+  },
+  {
+    "filename": "19-wall-lanterns.png",
+    "name": "月夜花灯打卡装置",
+    "width": 1672,
+    "height": 941,
+    "sha256": "47048b349062253d919f9f667ff01cd7b7a7c97c753a41970ef56fdc33434c12"
+  }
+]
