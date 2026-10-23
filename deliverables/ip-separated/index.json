@@ -1,0 +1,692 @@
+[
+  {
+    "file": "01-products/figurine-sheng.png",
+    "description": "第一组公仔-生",
+    "source_crop": [
+      478,
+      205,
+      650,
+      450
+    ]
+  },
+  {
+    "file": "01-products/figurine-dan.png",
+    "description": "第一组公仔-旦",
+    "source_crop": [
+      642,
+      202,
+      800,
+      450
+    ]
+  },
+  {
+    "file": "01-products/figurine-jing.png",
+    "description": "第一组公仔-净",
+    "source_crop": [
+      790,
+      190,
+      975,
+      450
+    ]
+  },
+  {
+    "file": "01-products/figurine-mo.png",
+    "description": "第一组公仔-末",
+    "source_crop": [
+      968,
+      196,
+      1142,
+      450
+    ]
+  },
+  {
+    "file": "01-products/figurine-chou.png",
+    "description": "第一组公仔-丑",
+    "source_crop": [
+      1132,
+      244,
+      1337,
+      450
+    ]
+  },
+  {
+    "file": "01-products/magnet-sheng.png",
+    "description": "第一组冰箱贴-生",
+    "source_crop": [
+      555,
+      479,
+      657,
+      602
+    ]
+  },
+  {
+    "file": "01-products/magnet-dan.png",
+    "description": "第一组冰箱贴-旦",
+    "source_crop": [
+      648,
+      479,
+      737,
+      602
+    ]
+  },
+  {
+    "file": "01-products/magnet-jing.png",
+    "description": "第一组冰箱贴-净",
+    "source_crop": [
+      731,
+      477,
+      828,
+      602
+    ]
+  },
+  {
+    "file": "01-products/magnet-mo.png",
+    "description": "第一组冰箱贴-末",
+    "source_crop": [
+      823,
+      480,
+      913,
+      602
+    ]
+  },
+  {
+    "file": "01-products/magnet-chou.png",
+    "description": "第一组冰箱贴-丑",
+    "source_crop": [
+      903,
+      489,
+      1007,
+      602
+    ]
+  },
+  {
+    "file": "01-products/bookmark-sheng.png",
+    "description": "第一组书签-生",
+    "source_crop": [
+      1028,
+      469,
+      1111,
+      647
+    ]
+  },
+  {
+    "file": "01-products/bookmark-dan.png",
+    "description": "第一组书签-旦",
+    "source_crop": [
+      1104,
+      473,
+      1184,
+      648
+    ]
+  },
+  {
+    "file": "01-products/bookmark-jing.png",
+    "description": "第一组书签-净",
+    "source_crop": [
+      1178,
+      471,
+      1259,
+      648
+    ]
+  },
+  {
+    "file": "01-products/bookmark-mo.png",
+    "description": "第一组书签-末",
+    "source_crop": [
+      1251,
+      469,
+      1333,
+      649
+    ]
+  },
+  {
+    "file": "01-products/bookmark-chou.png",
+    "description": "第一组书签-丑",
+    "source_crop": [
+      1326,
+      474,
+      1409,
+      649
+    ]
+  },
+  {
+    "file": "01-products/keychain-sheng.png",
+    "description": "第一组钥匙扣-生",
+    "source_crop": [
+      570,
+      611,
+      752,
+      870
+    ]
+  },
+  {
+    "file": "01-products/keychain-dan.png",
+    "description": "第一组钥匙扣-旦",
+    "source_crop": [
+      742,
+      603,
+      900,
+      872
+    ]
+  },
+  {
+    "file": "01-products/keychain-jing.png",
+    "description": "第一组钥匙扣-净",
+    "source_crop": [
+      884,
+      609,
+      1056,
+      875
+    ]
+  },
+  {
+    "file": "01-products/keychain-mo.png",
+    "description": "第一组钥匙扣-末",
+    "source_crop": [
+      1045,
+      613,
+      1205,
+      875
+    ]
+  },
+  {
+    "file": "01-products/keychain-chou.png",
+    "description": "第一组钥匙扣-丑",
+    "source_crop": [
+      1190,
+      615,
+      1373,
+      875
+    ]
+  },
+  {
+    "file": "01-products/sachet-sheng.png",
+    "description": "第一组香囊-生",
+    "source_crop": [
+      9,
+      596,
+      122,
+      799
+    ]
+  },
+  {
+    "file": "01-products/sachet-dan.png",
+    "description": "第一组香囊-旦",
+    "source_crop": [
+      94,
+      598,
+      222,
+      857
+    ]
+  },
+  {
+    "file": "01-products/sachet-jing.png",
+    "description": "第一组香囊-净",
+    "source_crop": [
+      191,
+      590,
+      319,
+      852
+    ]
+  },
+  {
+    "file": "01-products/sachet-mo.png",
+    "description": "第一组香囊-末",
+    "source_crop": [
+      285,
+      590,
+      407,
+      838
+    ]
+  },
+  {
+    "file": "01-products/sachet-chou.png",
+    "description": "第一组香囊-丑",
+    "source_crop": [
+      388,
+      590,
+      509,
+      799
+    ]
+  },
+  {
+    "file": "01-products/badge-sheng.png",
+    "description": "第一组徽章-生",
+    "source_crop": [
+      47,
+      482,
+      141,
+      579
+    ]
+  },
+  {
+    "file": "01-products/badge-dan.png",
+    "description": "第一组徽章-旦",
+    "source_crop": [
+      133,
+      471,
+      232,
+      570
+    ]
+  },
+  {
+    "file": "01-products/badge-jing.png",
+    "description": "第一组徽章-净",
+    "source_crop": [
+      224,
+      464,
+      323,
+      561
+    ]
+  },
+  {
+    "file": "01-products/badge-mo.png",
+    "description": "第一组徽章-末",
+    "source_crop": [
+      319,
+      459,
+      411,
+      556
+    ]
+  },
+  {
+    "file": "01-products/badge-chou.png",
+    "description": "第一组徽章-丑",
+    "source_crop": [
+      401,
+      457,
+      489,
+      549
+    ]
+  },
+  {
+    "file": "01-products/tote-large.png",
+    "description": "第一组大帆布袋",
+    "source_crop": [
+      1340,
+      0,
+      1774,
+      646
+    ]
+  },
+  {
+    "file": "01-products/tote-small.png",
+    "description": "第一组小帆布袋",
+    "source_crop": [
+      1514,
+      245,
+      1774,
+      832
+    ]
+  },
+  {
+    "file": "01-products/badge-giftbox.png",
+    "description": "第一组徽章礼盒",
+    "source_crop": [
+      0,
+      174,
+      528,
+      664
+    ]
+  },
+  {
+    "file": "02-products/pillow-sheng.png",
+    "description": "第二组抱枕-生",
+    "source_crop": [
+      114,
+      137,
+      395,
+      491
+    ]
+  },
+  {
+    "file": "02-products/pillow-dan.png",
+    "description": "第二组抱枕-旦",
+    "source_crop": [
+      378,
+      150,
+      653,
+      501
+    ]
+  },
+  {
+    "file": "02-products/pillow-jing.png",
+    "description": "第二组抱枕-净",
+    "source_crop": [
+      633,
+      169,
+      913,
+      503
+    ]
+  },
+  {
+    "file": "02-products/pillow-mo.png",
+    "description": "第二组抱枕-末",
+    "source_crop": [
+      896,
+      170,
+      1151,
+      504
+    ]
+  },
+  {
+    "file": "02-products/pillow-chou.png",
+    "description": "第二组抱枕-丑",
+    "source_crop": [
+      1137,
+      172,
+      1419,
+      507
+    ]
+  },
+  {
+    "file": "02-products/phone-case-sheng.png",
+    "description": "第二组手机壳-生",
+    "source_crop": [
+      909,
+      496,
+      1042,
+      739
+    ]
+  },
+  {
+    "file": "02-products/phone-case-dan.png",
+    "description": "第二组手机壳-旦",
+    "source_crop": [
+      1028,
+      500,
+      1161,
+      744
+    ]
+  },
+  {
+    "file": "02-products/phone-case-jing.png",
+    "description": "第二组手机壳-净",
+    "source_crop": [
+      1148,
+      503,
+      1277,
+      747
+    ]
+  },
+  {
+    "file": "02-products/phone-case-mo.png",
+    "description": "第二组手机壳-末",
+    "source_crop": [
+      1264,
+      508,
+      1381,
+      749
+    ]
+  },
+  {
+    "file": "02-products/phone-case-chou.png",
+    "description": "第二组手机壳-丑",
+    "source_crop": [
+      1370,
+      510,
+      1492,
+      751
+    ]
+  },
+  {
+    "file": "02-products/cup-sheng.png",
+    "description": "第二组杯子-生",
+    "source_crop": [
+      17,
+      454,
+      185,
+      729
+    ]
+  },
+  {
+    "file": "02-products/cup-dan.png",
+    "description": "第二组杯子-旦",
+    "source_crop": [
+      174,
+      475,
+      325,
+      735
+    ]
+  },
+  {
+    "file": "02-products/cup-jing.png",
+    "description": "第二组杯子-净",
+    "source_crop": [
+      315,
+      484,
+      466,
+      736
+    ]
+  },
+  {
+    "file": "02-products/cup-mo.png",
+    "description": "第二组杯子-末",
+    "source_crop": [
+      544,
+      546,
+      758,
+      737
+    ]
+  },
+  {
+    "file": "02-products/cup-chou.png",
+    "description": "第二组杯子-丑",
+    "source_crop": [
+      716,
+      550,
+      911,
+      741
+    ]
+  },
+  {
+    "file": "02-products/sticker-sheng.png",
+    "description": "第二组贴纸-生",
+    "source_crop": [
+      66,
+      738,
+      223,
+      901
+    ]
+  },
+  {
+    "file": "02-products/sticker-dan.png",
+    "description": "第二组贴纸-旦",
+    "source_crop": [
+      206,
+      738,
+      370,
+      906
+    ]
+  },
+  {
+    "file": "02-products/sticker-jing.png",
+    "description": "第二组贴纸-净",
+    "source_crop": [
+      352,
+      741,
+      515,
+      908
+    ]
+  },
+  {
+    "file": "02-products/sticker-mo.png",
+    "description": "第二组贴纸-末",
+    "source_crop": [
+      497,
+      745,
+      658,
+      914
+    ]
+  },
+  {
+    "file": "02-products/sticker-chou.png",
+    "description": "第二组贴纸-丑",
+    "source_crop": [
+      641,
+      746,
+      801,
+      920
+    ]
+  },
+  {
+    "file": "02-products/tape-sheng.png",
+    "description": "第二组胶带-生",
+    "source_crop": [
+      84,
+      892,
+      205,
+      956
+    ]
+  },
+  {
+    "file": "02-products/tape-dan.png",
+    "description": "第二组胶带-旦",
+    "source_crop": [
+      201,
+      897,
+      324,
+      963
+    ]
+  },
+  {
+    "file": "02-products/tape-jing.png",
+    "description": "第二组胶带-净",
+    "source_crop": [
+      318,
+      900,
+      442,
+      969
+    ]
+  },
+  {
+    "file": "02-products/tape-mo.png",
+    "description": "第二组胶带-末",
+    "source_crop": [
+      435,
+      903,
+      561,
+      976
+    ]
+  },
+  {
+    "file": "02-products/tape-chou.png",
+    "description": "第二组胶带-丑",
+    "source_crop": [
+      551,
+      907,
+      679,
+      979
+    ]
+  },
+  {
+    "file": "02-products/blind-box-sheng.png",
+    "description": "第二组盲盒包装-生",
+    "source_crop": [
+      805,
+      732,
+      959,
+      959
+    ]
+  },
+  {
+    "file": "02-products/blind-box-dan.png",
+    "description": "第二组盲盒包装-旦",
+    "source_crop": [
+      937,
+      744,
+      1104,
+      971
+    ]
+  },
+  {
+    "file": "02-products/blind-box-jing.png",
+    "description": "第二组盲盒包装-净",
+    "source_crop": [
+      1088,
+      753,
+      1257,
+      987
+    ]
+  },
+  {
+    "file": "02-products/blind-box-mo.png",
+    "description": "第二组盲盒包装-末",
+    "source_crop": [
+      1235,
+      764,
+      1403,
+      1000
+    ]
+  },
+  {
+    "file": "02-products/blind-box-chou.png",
+    "description": "第二组盲盒包装-丑",
+    "source_crop": [
+      1378,
+      775,
+      1536,
+      1017
+    ]
+  },
+  {
+    "file": "03-checkin-walls/01-red-stage.png",
+    "description": "红金戏台打卡墙",
+    "source_crop": [
+      0,
+      0,
+      1536,
+      579
+    ]
+  },
+  {
+    "file": "03-checkin-walls/02-folding-fan.png",
+    "description": "粉青折扇打卡墙",
+    "source_crop": [
+      0,
+      589,
+      762,
+      1024
+    ]
+  },
+  {
+    "file": "03-checkin-walls/03-courtyard.png",
+    "description": "古城庭院打卡墙",
+    "source_crop": [
+      774,
+      589,
+      1536,
+      1024
+    ]
+  },
+  {
+    "file": "03-checkin-walls/04-giant-blindbox.png",
+    "description": "巨型盲盒打卡装置",
+    "source_crop": [
+      0,
+      0,
+      719,
+      725
+    ]
+  },
+  {
+    "file": "03-checkin-walls/05-maritime-waves.png",
+    "description": "海丝波浪打卡装置",
+    "source_crop": [
+      729,
+      0,
+      1443,
+      725
+    ]
+  },
+  {
+    "file": "03-checkin-walls/06-moon-lanterns.png",
+    "description": "月夜花灯打卡装置",
+    "source_crop": [
+      1453,
+      0,
+      2170,
+      725
+    ]
+  }
+]
