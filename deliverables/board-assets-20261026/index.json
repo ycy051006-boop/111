@@ -1,0 +1,380 @@
+[
+  {
+    "file": "06-blindbox-pairs/box-figurine-chou.png",
+    "source": "参照展板重新生成",
+    "width": 1536,
+    "height": 1024,
+    "transparent": false
+  },
+  {
+    "file": "06-blindbox-pairs/box-figurine-dan.png",
+    "source": "参照展板重新生成",
+    "width": 1536,
+    "height": 1024,
+    "transparent": false
+  },
+  {
+    "file": "06-blindbox-pairs/box-figurine-jing.png",
+    "source": "参照展板重新生成",
+    "width": 1536,
+    "height": 1024,
+    "transparent": false
+  },
+  {
+    "file": "06-blindbox-pairs/box-figurine-mo.png",
+    "source": "参照展板重新生成",
+    "width": 1536,
+    "height": 1024,
+    "transparent": false
+  },
+  {
+    "file": "06-blindbox-pairs/box-figurine-sheng.png",
+    "source": "参照展板重新生成",
+    "width": 1536,
+    "height": 1024,
+    "transparent": false
+  },
+  {
+    "file": "10-design-elements/color-cloud-motifs.png",
+    "source": "参照展板重新生成",
+    "width": 1774,
+    "height": 887,
+    "transparent": true
+  },
+  {
+    "file": "02-transparent-expressions/expressions-chou.png",
+    "source": "参照展板重新生成",
+    "width": 1536,
+    "height": 1024,
+    "transparent": true
+  },
+  {
+    "file": "02-transparent-expressions/expressions-dan.png",
+    "source": "参照展板重新生成",
+    "width": 1536,
+    "height": 1024,
+    "transparent": true
+  },
+  {
+    "file": "02-transparent-expressions/expressions-jing.png",
+    "source": "参照展板重新生成",
+    "width": 1536,
+    "height": 1024,
+    "transparent": true
+  },
+  {
+    "file": "02-transparent-expressions/expressions-mo.png",
+    "source": "参照展板重新生成",
+    "width": 1536,
+    "height": 1024,
+    "transparent": true
+  },
+  {
+    "file": "02-transparent-expressions/expressions-sheng.png",
+    "source": "参照展板重新生成",
+    "width": 1536,
+    "height": 1024,
+    "transparent": true
+  },
+  {
+    "file": "07-hero-visuals/hero-01.png",
+    "source": "参照展板重新生成",
+    "width": 1983,
+    "height": 793,
+    "transparent": false
+  },
+  {
+    "file": "07-hero-visuals/hero-02.png",
+    "source": "参照展板重新生成",
+    "width": 1983,
+    "height": 793,
+    "transparent": false
+  },
+  {
+    "file": "07-hero-visuals/hero-03.png",
+    "source": "参照展板重新生成",
+    "width": 2048,
+    "height": 768,
+    "transparent": false
+  },
+  {
+    "file": "07-hero-visuals/hero-04.png",
+    "source": "参照展板重新生成",
+    "width": 1942,
+    "height": 809,
+    "transparent": false
+  },
+  {
+    "file": "05-portrait-illustrations/portrait-art-chou.png",
+    "source": "参照展板重新生成",
+    "width": 1024,
+    "height": 1536,
+    "transparent": false
+  },
+  {
+    "file": "05-portrait-illustrations/portrait-art-dan.png",
+    "source": "参照展板重新生成",
+    "width": 1024,
+    "height": 1536,
+    "transparent": false
+  },
+  {
+    "file": "05-portrait-illustrations/portrait-art-jing.png",
+    "source": "参照展板重新生成",
+    "width": 1024,
+    "height": 1536,
+    "transparent": false
+  },
+  {
+    "file": "05-portrait-illustrations/portrait-art-mo.png",
+    "source": "参照展板重新生成",
+    "width": 1024,
+    "height": 1536,
+    "transparent": false
+  },
+  {
+    "file": "05-portrait-illustrations/portrait-art-sheng.png",
+    "source": "参照展板重新生成",
+    "width": 1024,
+    "height": 1536,
+    "transparent": false
+  },
+  {
+    "file": "03-posters/poster-chou.png",
+    "source": "参照展板重新生成",
+    "width": 1024,
+    "height": 1536,
+    "transparent": false
+  },
+  {
+    "file": "03-posters/poster-dan.png",
+    "source": "参照展板重新生成",
+    "width": 1024,
+    "height": 1536,
+    "transparent": false
+  },
+  {
+    "file": "03-posters/poster-jing.png",
+    "source": "参照展板重新生成",
+    "width": 1024,
+    "height": 1536,
+    "transparent": false
+  },
+  {
+    "file": "03-posters/poster-mo.png",
+    "source": "参照展板重新生成",
+    "width": 1024,
+    "height": 1536,
+    "transparent": false
+  },
+  {
+    "file": "03-posters/poster-sheng.png",
+    "source": "参照展板重新生成",
+    "width": 1024,
+    "height": 1536,
+    "transparent": false
+  },
+  {
+    "file": "01-transparent-roles/role-chou.png",
+    "source": "参照展板重新生成",
+    "width": 1247,
+    "height": 1261,
+    "transparent": true
+  },
+  {
+    "file": "01-transparent-roles/role-dan.png",
+    "source": "参照展板重新生成",
+    "width": 1247,
+    "height": 1261,
+    "transparent": true
+  },
+  {
+    "file": "01-transparent-roles/role-jing.png",
+    "source": "参照展板重新生成",
+    "width": 1246,
+    "height": 1262,
+    "transparent": true
+  },
+  {
+    "file": "01-transparent-roles/role-mo.png",
+    "source": "参照展板重新生成",
+    "width": 1207,
+    "height": 1303,
+    "transparent": true
+  },
+  {
+    "file": "01-transparent-roles/role-sheng.png",
+    "source": "参照展板重新生成",
+    "width": 1230,
+    "height": 1278,
+    "transparent": true
+  },
+  {
+    "file": "09-scenes/scene-mall.png",
+    "source": "参照展板重新生成",
+    "width": 1536,
+    "height": 1024,
+    "transparent": false
+  },
+  {
+    "file": "09-scenes/scene-metro.png",
+    "source": "参照展板重新生成",
+    "width": 1665,
+    "height": 944,
+    "transparent": false
+  },
+  {
+    "file": "09-scenes/scene-window.png",
+    "source": "参照展板重新生成",
+    "width": 1536,
+    "height": 1024,
+    "transparent": false
+  },
+  {
+    "file": "04-square-illustrations/square-art-chou.png",
+    "source": "参照展板重新生成",
+    "width": 1254,
+    "height": 1254,
+    "transparent": false
+  },
+  {
+    "file": "04-square-illustrations/square-art-dan.png",
+    "source": "参照展板重新生成",
+    "width": 1254,
+    "height": 1254,
+    "transparent": false
+  },
+  {
+    "file": "04-square-illustrations/square-art-jing.png",
+    "source": "参照展板重新生成",
+    "width": 1254,
+    "height": 1254,
+    "transparent": false
+  },
+  {
+    "file": "04-square-illustrations/square-art-mo.png",
+    "source": "参照展板重新生成",
+    "width": 1254,
+    "height": 1254,
+    "transparent": false
+  },
+  {
+    "file": "04-square-illustrations/square-art-sheng.png",
+    "source": "参照展板重新生成",
+    "width": 1254,
+    "height": 1254,
+    "transparent": false
+  },
+  {
+    "file": "08-product-mockups/01-blindbox.png",
+    "source": "此前独立生成的完整样机原图",
+    "width": 1774,
+    "height": 887,
+    "transparent": false
+  },
+  {
+    "file": "08-product-mockups/02-puzzle.png",
+    "source": "此前独立生成的完整样机原图",
+    "width": 1774,
+    "height": 887,
+    "transparent": false
+  },
+  {
+    "file": "08-product-mockups/03-stamps.png",
+    "source": "此前独立生成的完整样机原图",
+    "width": 1536,
+    "height": 1024,
+    "transparent": false
+  },
+  {
+    "file": "08-product-mockups/04-umbrella.png",
+    "source": "此前独立生成的完整样机原图",
+    "width": 1536,
+    "height": 1024,
+    "transparent": false
+  },
+  {
+    "file": "08-product-mockups/05-packaging.png",
+    "source": "此前独立生成的完整样机原图",
+    "width": 1536,
+    "height": 1024,
+    "transparent": false
+  },
+  {
+    "file": "08-product-mockups/06-tickets.png",
+    "source": "此前独立生成的完整样机原图",
+    "width": 1774,
+    "height": 887,
+    "transparent": false
+  },
+  {
+    "file": "08-product-mockups/07-badges.png",
+    "source": "此前独立生成的完整样机原图",
+    "width": 1536,
+    "height": 1024,
+    "transparent": false
+  },
+  {
+    "file": "08-product-mockups/08-calendar.png",
+    "source": "此前独立生成的完整样机原图",
+    "width": 1536,
+    "height": 1024,
+    "transparent": false
+  },
+  {
+    "file": "08-product-mockups/09-pillows.png",
+    "source": "此前独立生成的完整样机原图",
+    "width": 1536,
+    "height": 1024,
+    "transparent": false
+  },
+  {
+    "file": "08-product-mockups/10-phones.png",
+    "source": "此前独立生成的完整样机原图",
+    "width": 1536,
+    "height": 1024,
+    "transparent": false
+  },
+  {
+    "file": "08-product-mockups/11-notebooks.png",
+    "source": "此前独立生成的完整样机原图",
+    "width": 1536,
+    "height": 1024,
+    "transparent": false
+  },
+  {
+    "file": "08-product-mockups/12-mugs.png",
+    "source": "此前独立生成的完整样机原图",
+    "width": 1536,
+    "height": 1024,
+    "transparent": false
+  },
+  {
+    "file": "08-product-mockups/13-stickers.png",
+    "source": "此前独立生成的完整样机原图",
+    "width": 1536,
+    "height": 1024,
+    "transparent": false
+  },
+  {
+    "file": "09-scenes/14-street.png",
+    "source": "此前独立生成的完整样机原图",
+    "width": 1536,
+    "height": 1024,
+    "transparent": false
+  },
+  {
+    "file": "09-scenes/15-interior.png",
+    "source": "此前独立生成的完整样机原图",
+    "width": 1536,
+    "height": 1024,
+    "transparent": false
+  },
+  {
+    "file": "09-scenes/16-busstop.png",
+    "source": "此前独立生成的完整样机原图",
+    "width": 1774,
+    "height": 887,
+    "transparent": false
+  }
+]
