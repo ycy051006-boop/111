@@ -1,0 +1,797 @@
+[
+  {
+    "page": 1,
+    "asset": "source/assets/hero-1.png",
+    "source_px": [
+      1638,
+      960
+    ],
+    "placed_box": [
+      0,
+      0,
+      587,
+      344
+    ],
+    "effective_ppi": 150
+  },
+  {
+    "page": 1,
+    "asset": "source/assets/culture.png",
+    "source_px": [
+      2184,
+      720
+    ],
+    "placed_box": [
+      274,
+      371,
+      297,
+      47
+    ],
+    "effective_ppi": 394
+  },
+  {
+    "page": 1,
+    "asset": "source/input/5角IP/role-sheng.png",
+    "source_px": [
+      1230,
+      1278
+    ],
+    "placed_box": [
+      18.0,
+      503,
+      101,
+      126
+    ],
+    "effective_ppi": 528
+  },
+  {
+    "page": 1,
+    "asset": "source/input/5角IP/role-dan.png",
+    "source_px": [
+      1247,
+      1261
+    ],
+    "placed_box": [
+      130.8,
+      503,
+      101,
+      126
+    ],
+    "effective_ppi": 521
+  },
+  {
+    "page": 1,
+    "asset": "source/input/5角IP/role-jing.png",
+    "source_px": [
+      1246,
+      1262
+    ],
+    "placed_box": [
+      243.6,
+      503,
+      101,
+      126
+    ],
+    "effective_ppi": 501
+  },
+  {
+    "page": 1,
+    "asset": "source/input/5角IP/role-mo.png",
+    "source_px": [
+      1207,
+      1303
+    ],
+    "placed_box": [
+      356.4,
+      503,
+      101,
+      126
+    ],
+    "effective_ppi": 532
+  },
+  {
+    "page": 1,
+    "asset": "source/input/5角IP/role-chou.png",
+    "source_px": [
+      1247,
+      1261
+    ],
+    "placed_box": [
+      469.2,
+      503,
+      101,
+      126
+    ],
+    "effective_ppi": 486
+  },
+  {
+    "page": 1,
+    "asset": "../../deliverables/puppet-stickers-complete/01-生-收到.png",
+    "source_px": [
+      1336,
+      1177
+    ],
+    "placed_box": [
+      18.0,
+      739,
+      33,
+      37
+    ],
+    "effective_ppi": 1698
+  },
+  {
+    "page": 1,
+    "asset": "../../deliverables/puppet-stickers-complete/06-生-啊.png",
+    "source_px": [
+      1312,
+      1199
+    ],
+    "placed_box": [
+      52.0,
+      739,
+      33,
+      37
+    ],
+    "effective_ppi": 1737
+  },
+  {
+    "page": 1,
+    "asset": "../../deliverables/puppet-stickers-complete/11-生-困了.png",
+    "source_px": [
+      1312,
+      1199
+    ],
+    "placed_box": [
+      86.0,
+      739,
+      33,
+      37
+    ],
+    "effective_ppi": 1771
+  },
+  {
+    "page": 1,
+    "asset": "../../deliverables/puppet-stickers-complete/02-旦-爱你.png",
+    "source_px": [
+      1312,
+      1199
+    ],
+    "placed_box": [
+      130.8,
+      739,
+      33,
+      37
+    ],
+    "effective_ppi": 1882
+  },
+  {
+    "page": 1,
+    "asset": "../../deliverables/puppet-stickers-complete/07-旦-委屈.png",
+    "source_px": [
+      1312,
+      1199
+    ],
+    "placed_box": [
+      164.8,
+      739,
+      33,
+      37
+    ],
+    "effective_ppi": 1739
+  },
+  {
+    "page": 1,
+    "asset": "../../deliverables/puppet-stickers-complete/12-旦-害羞.png",
+    "source_px": [
+      1317,
+      1194
+    ],
+    "placed_box": [
+      198.8,
+      739,
+      33,
+      37
+    ],
+    "effective_ppi": 1752
+  },
+  {
+    "page": 1,
+    "asset": "../../deliverables/puppet-stickers-complete/03-净-气炸了.png",
+    "source_px": [
+      1374,
+      1145
+    ],
+    "placed_box": [
+      243.6,
+      739,
+      33,
+      37
+    ],
+    "effective_ppi": 1736
+  },
+  {
+    "page": 1,
+    "asset": "../../deliverables/puppet-stickers-complete/08-净-冲鸭.png",
+    "source_px": [
+      1374,
+      1145
+    ],
+    "placed_box": [
+      277.6,
+      739,
+      33,
+      37
+    ],
+    "effective_ppi": 1794
+  },
+  {
+    "page": 1,
+    "asset": "../../deliverables/puppet-stickers-complete/13-净-不服.png",
+    "source_px": [
+      1351,
+      1164
+    ],
+    "placed_box": [
+      311.6,
+      739,
+      33,
+      37
+    ],
+    "effective_ppi": 1835
+  },
+  {
+    "page": 1,
+    "asset": "../../deliverables/puppet-stickers-complete/04-末-稳住.png",
+    "source_px": [
+      1312,
+      1199
+    ],
+    "placed_box": [
+      356.4,
+      739,
+      33,
+      37
+    ],
+    "effective_ppi": 1736
+  },
+  {
+    "page": 1,
+    "asset": "../../deliverables/puppet-stickers-complete/09-末-淡定.png",
+    "source_px": [
+      1536,
+      1024
+    ],
+    "placed_box": [
+      390.4,
+      739,
+      33,
+      37
+    ],
+    "effective_ppi": 1466
+  },
+  {
+    "page": 1,
+    "asset": "../../deliverables/puppet-stickers-complete/14-末-妙啊.png",
+    "source_px": [
+      1536,
+      1024
+    ],
+    "placed_box": [
+      424.4,
+      739,
+      33,
+      37
+    ],
+    "effective_ppi": 1693
+  },
+  {
+    "page": 1,
+    "asset": "../../deliverables/puppet-stickers-complete/05-丑-哈哈哈.png",
+    "source_px": [
+      1402,
+      1122
+    ],
+    "placed_box": [
+      469.2,
+      739,
+      33,
+      37
+    ],
+    "effective_ppi": 1621
+  },
+  {
+    "page": 1,
+    "asset": "../../deliverables/puppet-stickers-complete/10-丑-溜了.png",
+    "source_px": [
+      1536,
+      1024
+    ],
+    "placed_box": [
+      503.2,
+      739,
+      33,
+      37
+    ],
+    "effective_ppi": 1737
+  },
+  {
+    "page": 1,
+    "asset": "../../deliverables/puppet-stickers-complete/15-丑-略略略.png",
+    "source_px": [
+      1305,
+      1205
+    ],
+    "placed_box": [
+      537.2,
+      739,
+      33,
+      37
+    ],
+    "effective_ppi": 1672
+  },
+  {
+    "page": 1,
+    "asset": "source/input/邮票海报/01_生角_青蓝.png",
+    "source_px": [
+      1024,
+      1536
+    ],
+    "placed_box": [
+      17.0,
+      807,
+      49,
+      74
+    ],
+    "effective_ppi": 1113
+  },
+  {
+    "page": 1,
+    "asset": "source/input/邮票海报/02_旦角_粉色.png",
+    "source_px": [
+      1024,
+      1536
+    ],
+    "placed_box": [
+      129.8,
+      807,
+      49,
+      74
+    ],
+    "effective_ppi": 1113
+  },
+  {
+    "page": 1,
+    "asset": "source/input/邮票海报/03_净角_暖橙.png",
+    "source_px": [
+      1024,
+      1536
+    ],
+    "placed_box": [
+      242.6,
+      807,
+      49,
+      74
+    ],
+    "effective_ppi": 1113
+  },
+  {
+    "page": 1,
+    "asset": "source/input/邮票海报/04_末角_金黄.png",
+    "source_px": [
+      1024,
+      1536
+    ],
+    "placed_box": [
+      355.4,
+      807,
+      49,
+      74
+    ],
+    "effective_ppi": 1113
+  },
+  {
+    "page": 1,
+    "asset": "source/input/邮票海报/05_丑角_绿色.png",
+    "source_px": [
+      1024,
+      1536
+    ],
+    "placed_box": [
+      468.2,
+      807,
+      49,
+      74
+    ],
+    "effective_ppi": 1113
+  },
+  {
+    "page": 2,
+    "asset": "source/assets/hero-2.png",
+    "source_px": [
+      1642,
+      958
+    ],
+    "placed_box": [
+      0,
+      0,
+      587,
+      340
+    ],
+    "effective_ppi": 151
+  },
+  {
+    "page": 2,
+    "asset": "source/assets/patterns.png",
+    "source_px": [
+      2172,
+      724
+    ],
+    "placed_box": [
+      315,
+      369,
+      46,
+      50
+    ],
+    "effective_ppi": 473
+  },
+  {
+    "page": 2,
+    "asset": "source/assets/patterns.png",
+    "source_px": [
+      2172,
+      724
+    ],
+    "placed_box": [
+      367,
+      369,
+      46,
+      50
+    ],
+    "effective_ppi": 465
+  },
+  {
+    "page": 2,
+    "asset": "source/assets/patterns.png",
+    "source_px": [
+      2172,
+      724
+    ],
+    "placed_box": [
+      419,
+      369,
+      46,
+      50
+    ],
+    "effective_ppi": 465
+  },
+  {
+    "page": 2,
+    "asset": "source/assets/patterns.png",
+    "source_px": [
+      2172,
+      724
+    ],
+    "placed_box": [
+      471,
+      369,
+      46,
+      50
+    ],
+    "effective_ppi": 465
+  },
+  {
+    "page": 2,
+    "asset": "source/assets/patterns.png",
+    "source_px": [
+      2172,
+      724
+    ],
+    "placed_box": [
+      523,
+      369,
+      46,
+      50
+    ],
+    "effective_ppi": 470
+  },
+  {
+    "page": 2,
+    "asset": "source/input/新建文件夹/文具系列.png",
+    "source_px": [
+      1774,
+      887
+    ],
+    "placed_box": [
+      15,
+      491,
+      322,
+      136
+    ],
+    "effective_ppi": 350
+  },
+  {
+    "page": 2,
+    "asset": "source/input/新建文件夹/包袋系列.png",
+    "source_px": [
+      1774,
+      887
+    ],
+    "placed_box": [
+      344,
+      491,
+      228,
+      136
+    ],
+    "effective_ppi": 391
+  },
+  {
+    "page": 2,
+    "asset": "../../deliverables/board-assets-20261026/08-product-mockups/10-phones.png",
+    "source_px": [
+      1536,
+      1024
+    ],
+    "placed_box": [
+      15,
+      642,
+      184,
+      98
+    ],
+    "effective_ppi": 561
+  },
+  {
+    "page": 2,
+    "asset": "../../deliverables/board-assets-20261026/08-product-mockups/07-badges.png",
+    "source_px": [
+      1536,
+      1024
+    ],
+    "placed_box": [
+      207,
+      642,
+      184,
+      98
+    ],
+    "effective_ppi": 561
+  },
+  {
+    "page": 2,
+    "asset": "source/input/新建文件夹/家居用品系列.png",
+    "source_px": [
+      1774,
+      887
+    ],
+    "placed_box": [
+      399,
+      642,
+      173,
+      98
+    ],
+    "effective_ppi": 515
+  },
+  {
+    "page": 2,
+    "asset": "source/input/展板/ChatGPT 图像 2026年10月28日 13_11_11.png",
+    "source_px": [
+      1774,
+      887
+    ],
+    "placed_box": [
+      69,
+      768,
+      47,
+      98
+    ],
+    "effective_ppi": 392
+  },
+  {
+    "page": 2,
+    "asset": "source/input/展板/ChatGPT 图像 2026年10月28日 13_11_11.png",
+    "source_px": [
+      1774,
+      887
+    ],
+    "placed_box": [
+      123,
+      768,
+      47,
+      98
+    ],
+    "effective_ppi": 392
+  },
+  {
+    "page": 2,
+    "asset": "source/input/展板/ChatGPT 图像 2026年10月28日 13_11_11.png",
+    "source_px": [
+      1774,
+      887
+    ],
+    "placed_box": [
+      177,
+      768,
+      47,
+      98
+    ],
+    "effective_ppi": 392
+  },
+  {
+    "page": 2,
+    "asset": "source/input/展板/ChatGPT 图像 2026年10月28日 13_11_11.png",
+    "source_px": [
+      1774,
+      887
+    ],
+    "placed_box": [
+      231,
+      768,
+      47,
+      98
+    ],
+    "effective_ppi": 392
+  },
+  {
+    "page": 2,
+    "asset": "source/input/展板/ChatGPT 图像 2026年10月28日 13_11_11.png",
+    "source_px": [
+      1774,
+      887
+    ],
+    "placed_box": [
+      285,
+      768,
+      47,
+      98
+    ],
+    "effective_ppi": 392
+  },
+  {
+    "page": 2,
+    "asset": "source/assets/packaging.png",
+    "source_px": [
+      1672,
+      940
+    ],
+    "placed_box": [
+      350,
+      769,
+      223,
+      111
+    ],
+    "effective_ppi": 454
+  },
+  {
+    "page": 3,
+    "asset": "source/assets/hero-3.png",
+    "source_px": [
+      1605,
+      980
+    ],
+    "placed_box": [
+      0,
+      0,
+      587,
+      357
+    ],
+    "effective_ppi": 147
+  },
+  {
+    "page": 3,
+    "asset": "source/assets/keychains.png",
+    "source_px": [
+      1536,
+      1024
+    ],
+    "placed_box": [
+      5,
+      383,
+      189,
+      126
+    ],
+    "effective_ppi": 404
+  },
+  {
+    "page": 3,
+    "asset": "source/input/新建文件夹/包袋系列.png",
+    "source_px": [
+      1774,
+      887
+    ],
+    "placed_box": [
+      203,
+      412,
+      123,
+      82
+    ],
+    "effective_ppi": 724
+  },
+  {
+    "page": 3,
+    "asset": "../../deliverables/board-assets-20261026/08-product-mockups/07-badges.png",
+    "source_px": [
+      1536,
+      1024
+    ],
+    "placed_box": [
+      333,
+      412,
+      114,
+      82
+    ],
+    "effective_ppi": 676
+  },
+  {
+    "page": 3,
+    "asset": "../../deliverables/ip-complete/03-magnets.png",
+    "source_px": [
+      1774,
+      887
+    ],
+    "placed_box": [
+      454,
+      412,
+      118,
+      82
+    ],
+    "effective_ppi": 755
+  },
+  {
+    "page": 3,
+    "asset": "source/input/展板/ChatGPT 图像 2026年10月28日 13_00_25.png",
+    "source_px": [
+      1536,
+      1024
+    ],
+    "placed_box": [
+      10,
+      537,
+      254,
+      153
+    ],
+    "effective_ppi": 359
+  },
+  {
+    "page": 3,
+    "asset": "source/input/展板/ChatGPT 图像 2026年10月28日 12_38_06.png",
+    "source_px": [
+      1774,
+      887
+    ],
+    "placed_box": [
+      275,
+      540,
+      298,
+      149
+    ],
+    "effective_ppi": 319
+  },
+  {
+    "page": 3,
+    "asset": "source/input/展板/03-商场中庭.png",
+    "source_px": [
+      1774,
+      887
+    ],
+    "placed_box": [
+      10,
+      733,
+      286,
+      129
+    ],
+    "effective_ppi": 369
+  },
+  {
+    "page": 3,
+    "asset": "source/input/展板/04-滨水夜游.png",
+    "source_px": [
+      1774,
+      887
+    ],
+    "placed_box": [
+      304,
+      733,
+      269,
+      129
+    ],
+    "effective_ppi": 369
+  }
+]
