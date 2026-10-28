@@ -1,0 +1,63 @@
+[
+  {
+    "file": "01-A3-editable.psd",
+    "bytes": 85526830,
+    "width": 3508,
+    "height": 4961,
+    "groups": 7,
+    "leaf_layers": 154,
+    "native_text_layers": 64,
+    "embedded_smart_objects": 27,
+    "layer_reconstruction_mean_error_0_255": 0.0839459988595193,
+    "fonts": [
+      "AdobeInvisFont",
+      "MaShanZheng-Regular",
+      "NotoSansSC-Bold",
+      "NotoSansSC-Regular",
+      "NotoSerifSC-Regular"
+    ],
+    "sha256": "5cfc40310a2c154611468b34aabd9f5c4dd0c367999dce63888bf3c1b3969473",
+    "horizontal_dpi": 300,
+    "vertical_dpi": 300
+  },
+  {
+    "file": "02-A3-editable.psd",
+    "bytes": 74308907,
+    "width": 3508,
+    "height": 4961,
+    "groups": 7,
+    "leaf_layers": 86,
+    "native_text_layers": 35,
+    "embedded_smart_objects": 17,
+    "layer_reconstruction_mean_error_0_255": 0.03053425230672296,
+    "fonts": [
+      "AdobeInvisFont",
+      "MaShanZheng-Regular",
+      "NotoSansSC-Bold",
+      "NotoSansSC-Regular",
+      "NotoSerifSC-Regular"
+    ],
+    "sha256": "787b8c8b297026b73c475e2c2a3b7e44f02d4b7c824bbb35925d5f0af417deb0",
+    "horizontal_dpi": 300,
+    "vertical_dpi": 300
+  },
+  {
+    "file": "03-A3-editable.psd",
+    "bytes": 78162460,
+    "width": 3508,
+    "height": 4961,
+    "groups": 8,
+    "leaf_layers": 44,
+    "native_text_layers": 22,
+    "embedded_smart_objects": 9,
+    "layer_reconstruction_mean_error_0_255": 0.03156278033656822,
+    "fonts": [
+      "AdobeInvisFont",
+      "NotoSansSC-Bold",
+      "NotoSansSC-Regular"
+    ],
+    "sha256": "9819a3b34cbd6fdee19eb282d228d71ebd5dfc9c09f6cfc2c10782654104fba4",
+    "horizontal_dpi": 300,
+    "vertical_dpi": 300
+  }
+]
